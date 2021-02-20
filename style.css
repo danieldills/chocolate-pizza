@@ -1,0 +1,167 @@
+header {
+    display: flex;
+}
+
+#logo {
+    display: flex;
+    height: 100px;
+}
+
+#logo-image {
+    width: 65px;
+    height: 65px;
+    margin-top: 25px;
+}
+
+header h1 {
+    font-family: cursive;
+    font-style: italic;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#header-text {
+    line-height: .3;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-left: 410px;
+    margin-top: 35px;
+}
+
+.gray-bar {
+    height: 15px;
+    background-color: rgba(128, 128, 128, 0.141);
+    width: 900px;
+}
+
+#title {
+    line-height: .3;
+}
+
+#main-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 75px;
+    font-size: 45px;
+}
+
+#print-div {
+    display: flex;
+    line-height: .1;
+    margin-left: 485px;
+    margin-top: 75px;
+    color: lightgrey;
+}
+
+#headline {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#printer {
+    margin-top: 10px;
+    margin-right: 2px;
+    height: 15px;
+    width: 15px;
+}
+
+.para {
+    text-indent: 25px;
+    margin-right: 100px;
+}
+
+.flex-container {
+    display: flex;
+    background-image: url("lab-assets/list-bg.png");
+    height: 250px;
+    width: 900px;
+    font-family: cursive;
+}
+
+#list-left {
+    margin-right: 200px;
+    margin-left: 30px;
+
+}
+
+#list-right {
+    width: 300px;
+}
+
+#listA {
+    list-style: none;
+}
+
+#listB {
+    list-style: none;
+}
+
+.flex-container2 {
+    display: flex;
+}
+
+#about-author {
+    display: flex;
+}
+
+#author-text {
+    line-height: .8;
+    width: 500px;
+    height: 100px;
+    margin-left: 25px;
+}
+
+#bio {
+    height: 100px;
+    line-height: 1;
+}
+
+#author-pic {
+    margin-top: 15px;
+}
+
+button {
+    height: 50px;
+    width: 200px;
+    margin-left: 105px;
+    color: white;
+    background: rgba(197, 95, 57, 0.838);
+    border: none;
+}
+
+.line-logo {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    color: rgba(88, 83, 83, 0.749);
+    width: 900px;
+}
+
+.line {
+    background-color: rgba(128, 128, 128, 0.434);
+    height: 1px;
+    width: 410px;
+    margin-top: 15px;
+
+}
+
+#small-logo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
